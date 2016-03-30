@@ -18,10 +18,6 @@ So you can ran it with `lein doo slimer test`
 
 # random syllable
 
-# random legible string
-
-# random alpha
-
 # random key
 
 # random uppercase
