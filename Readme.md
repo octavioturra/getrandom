@@ -10,7 +10,7 @@ Install dependencies `npm install`
 
 If you do not have `karma`, install it with `npm install -g karma`
 
-So you can ran it with `lein
+So you can ran it with `lein doo slimer test`
 
 # random
 
