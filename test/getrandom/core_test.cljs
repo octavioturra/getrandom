@@ -10,10 +10,11 @@
 (deftest two-different-random
   (is (not= (core/getrandom) (core/getrandom))))
 
-
-
 (deftest max-size-random
-  (is (== (reduce max (map (core/getrandom 5) (make-array 99)) 5))))
+  (is (== (reduce max (map (core/getrandom 5) (make-array 99))) 5)))
+
+(deftest random-string
+  (is (str? (core/getrandom-string core/getrandom))))
 ; (deftest adding
 ;   (is (= 2 (core/adder 1 1))))
 ;
